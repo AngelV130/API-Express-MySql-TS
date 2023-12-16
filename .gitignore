@@ -1,0 +1,13 @@
+# Ignora archivos temporales y de construcción
+*.log
+*.tmp
+build/
+*.env
+# Ignora archivos específicos
+config.ini
+
+node_modules/
+services/
+
+# Ignora todos los archivos en el directorio "temp"
+temp/*
